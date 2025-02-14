@@ -27,7 +27,7 @@ const FireFliesBackground = () => {
             {
                 fireFlies.map(fireFly=>{
                     return (
-                        <div key={fireFly.id} className='absolute rounded-full bg-accent w-5 h-5'
+                        <div key={fireFly.id} className='absolute rounded-full bg-fireFly-radial w-5 h-5'
                         style={{ 
                             top: fireFly.top,
                             left: fireFly.left,
